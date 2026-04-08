@@ -1,0 +1,13 @@
+.header {
+  padding: 16px 16px 0;
+
+  @include desktop {
+    padding: 28px 32px 0;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
