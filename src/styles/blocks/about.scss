@@ -106,10 +106,6 @@
     @include tablet {
       flex: 1;
     }
-
-    @include desktop {
-      flex: 1;
-    }
   }
 
   &__value {
